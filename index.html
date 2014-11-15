@@ -1,0 +1,627 @@
+<!DOCTYPE HTML>
+
+<head>
+<title>HTML5 Assignment - Fall 2014</title>
+<link href="myStyle.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+</head>
+
+<body>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $("#navAbout").click(function(){
+        $("#displayServices").hide();
+        $("#displayHome").hide();
+        $("#displayGovernment").hide();
+        $("#displayPrograms").hide();
+        $("#displayBusiness").hide();
+        $("#displayCulture").hide();
+        $("#displayEnvironment").hide();
+        $("#displayHousing").hide();
+        $("#displaySocial").hide();
+        $("#displayEducation").hide();
+        $("#displayHealth").hide();
+        $("#displayTour").hide();
+      
+  });   
+    $("#navAbout").click(function(){
+    $("#displayAbout").fadeIn(1500);
+  });
+    
+    
+    $("#navServices").click(function(){
+        $("#displayAbout").hide();
+        $("#displayHome").hide();
+        $("#displayGovernment").hide();
+        $("#displayPrograms").hide();
+        $("#displayBusiness").hide();
+        $("#displayCulture").hide();
+        $("#displayEnvironment").hide();
+        $("#displayHousing").hide();
+        $("#displaySocial").hide();
+        $("#displayEducation").hide();
+        $("#displayHealth").hide();
+        $("#displayTour").hide();
+  });   
+    $("#navServices").click(function(){
+    $("#displayServices").fadeIn(1500);
+  });    
+
+    
+    $("#navHome").click(function(){
+        $("#displayAbout").hide();
+        $("#displayServices").hide();
+        $("#displayGovernment").hide();
+        $("#displayPrograms").hide();
+        $("#displayBusiness").hide();
+        $("#displayCulture").hide();
+        $("#displayEnvironment").hide();
+        $("#displayHousing").hide();
+        $("#displaySocial").hide();
+        $("#displayEducation").hide();
+        $("#displayHealth").hide();
+
+  });   
+    $("#navHome").click(function(){
+    $("#displayHome").fadeIn(1500);
+  }); 
+    
+    $("#navGovernment").click(function(){
+        $("#displayAbout").hide();
+        $("#displayServices").hide();
+        $("#displayHome").hide();
+        $("#displayPrograms").hide();
+        $("#displayBusiness").hide();
+        $("#displayCulture").hide();
+        $("#displayEnvironment").hide();
+        $("#displayHousing").hide();
+        $("#displaySocial").hide();
+        $("#displayEducation").hide();
+        $("#displayHealth").hide();
+      
+  });   
+    $("#navGovernment").click(function(){
+    $("#displayGovernment").fadeIn(1500);
+  }); 
+    
+  
+    $("#navPrograms").click(function(){
+        $("#displayAbout").hide();
+        $("#displayServices").hide();
+        $("#displayHome").hide();
+        $("#displayGovernment").hide();
+        $("#displayBusiness").hide();
+        $("#displayCulture").hide();
+        $("#displayEnvironment").hide();
+        $("#displayHousing").hide();
+        $("#displaySocial").hide();
+        $("#displayEducation").hide();
+        $("#displayHealth").hide();
+    
+  });   
+    $("#navPrograms").click(function(){
+    $("#displayPrograms").fadeIn(1500);
+  }); 
+
+/**************** Side Menu **************/  
+/*****************************************/
+    
+    $("#snavBusiness").click(function(){
+        $("#displayBusiness").fadeIn(1500);
+        
+        $("#displayAbout").hide();
+        $("#displayServices").hide();
+        $("#displayHome").hide();
+        $("#displayGovernment").hide();
+        $("#displayPrograms").hide();
+        
+        $("#displayCulture").hide();
+        $("#displayEnvironment").hide();
+        $("#displayHousing").hide();
+        $("#displaySocial").hide();
+        $("#displayEducation").hide();
+        $("#displayHealth").hide();
+  });   
+
+    $("#snavCulture").click(function(){
+        $("#displayCulture").fadeIn(1500);
+        
+        $("#displayAbout").hide();
+        $("#displayServices").hide();
+        $("#displayHome").hide();
+        $("#displayGovernment").hide();
+        $("#displayPrograms").hide();
+        
+        $("#displayBusiness").hide();
+        $("#displayEnvironment").hide();
+        $("#displayHousing").hide();
+        $("#displaySocial").hide();
+        $("#displayEducation").hide();
+        $("#displayHealth").hide();
+  });   
+
+     $("#snavEnvironment").click(function(){
+        $("#displayEnvironment").fadeIn(1500);
+        
+        $("#displayAbout").hide();
+        $("#displayServices").hide();
+        $("#displayHome").hide();
+        $("#displayGovernment").hide();
+        $("#displayPrograms").hide();
+        
+        $("#displayBusiness").hide();
+        $("#displayCulture").hide();
+        $("#displayHousing").hide();
+        $("#displaySocial").hide();
+        $("#displayEducation").hide();
+        $("#displayHealth").hide();
+  });     
+  
+     $("#snavHousing").click(function(){
+        $("#displayHousing").fadeIn(1500);
+        
+        $("#displayAbout").hide();
+        $("#displayServices").hide();
+        $("#displayHome").hide();
+        $("#displayGovernment").hide();
+        $("#displayPrograms").hide();
+        
+        $("#displayBusiness").hide();
+        $("#displayCulture").hide();
+        $("#displayEnvironment").hide();
+        $("#displaySocial").hide();
+        $("#displayEducation").hide();
+        $("#displayHealth").hide();
+  });     
+    
+        $("#snavSocial").click(function(){
+        $("#displaySocial").fadeIn(1500);
+        
+        $("#displayAbout").hide();
+        $("#displayServices").hide();
+        $("#displayHome").hide();
+        $("#displayGovernment").hide();
+        $("#displayPrograms").hide();
+        
+        $("#displayBusiness").hide();
+        $("#displayCulture").hide();
+        $("#displayEnvironment").hide();
+        $("#displayHousing").hide();
+        $("#displayEducation").hide();
+        $("#displayHealth").hide();
+  }); 
+    
+        $("#snavEducation").click(function(){
+        $("#displayEducation").fadeIn(1500);
+        
+        $("#displayAbout").hide();
+        $("#displayServices").hide();
+        $("#displayHome").hide();
+        $("#displayGovernment").hide();
+        $("#displayPrograms").hide();
+        
+        $("#displayBusiness").hide();
+        $("#displayCulture").hide();
+        $("#displayEnvironment").hide();
+        $("#displayHousing").hide();
+        $("#displaySocial").hide();
+        $("#displayHealth").hide();
+  });
+    
+        $("#snavHealth").click(function(){
+        $("#displayHealth").fadeIn(1500);
+        
+        $("#displayAbout").hide();
+        $("#displayServices").hide();
+        $("#displayHome").hide();
+        $("#displayGovernment").hide();
+        $("#displayPrograms").hide();
+        
+        $("#displayBusiness").hide();
+        $("#displayCulture").hide();
+        $("#displayEnvironment").hide();
+        $("#displayHousing").hide();
+        $("#displaySocial").hide();
+        $("#displayEducation").hide();
+ 
+  });   
+    
+/**************** Collapse Menu **************/   
+/*****************************************/
+    
+    $("#navMenu1").click(function(){
+        
+        $("#mainNav480sub").show();
+        $("#navMenu2").show();
+        $("#navMenu1").hide();
+  }); 
+  
+        $("#navMenu2").click(function(){
+        
+        $("#mainNav480sub").hide();
+        $("#navMenu2").hide();
+        $("#navMenu1").show();
+  }); 
+
+ 
+    $("#navHome2").click(function(){
+    $("#displayHome").fadeIn(10000);
+    $("#mainNav480sub").hide();
+    $("#displayAbout").hide();
+    $("#displayServices").hide();
+    $("#displayGovernment").hide();
+    $("#displayPrograms").hide();
+    $("#navMenu2").hide();
+    $("#navMenu1").show();
+        
+    $("#displayBusiness").hide();
+    $("#displayCulture").hide();
+    $("#displayEnvironment").hide();
+    $("#displayHousing").hide();
+    $("#displaySocial").hide();
+    $("#displayEducation").hide();
+    $("#displayHealth").hide();
+  });    
+    
+    $("#navAbout2").click(function(){
+    $("#displayAbout").fadeIn(1500);
+    $("#mainNav480sub").hide();
+    $("#displayHome").hide();
+    $("#displayServices").hide();
+    $("#displayGovernment").hide();
+    $("#displayPrograms").hide();
+    $("#navMenu2").hide();
+    $("#navMenu1").show();
+        
+    $("#displayBusiness").hide();
+    $("#displayCulture").hide();
+    $("#displayEnvironment").hide();
+    $("#displayHousing").hide();
+    $("#displaySocial").hide();
+    $("#displayEducation").hide();
+    $("#displayHealth").hide();
+  });
+    
+    $("#navServices2").click(function(){
+    $("#displayServices").fadeIn(1500);
+    $("#mainNav480sub").hide();
+    $("#displayHome").hide();
+    $("#displayAbout").hide();
+    $("#displayGovernment").hide();
+    $("#displayPrograms").hide();
+    $("#navMenu2").hide();
+    $("#navMenu1").show();
+        
+    $("#displayBusiness").hide();
+    $("#displayCulture").hide();
+    $("#displayEnvironment").hide();
+    $("#displayHousing").hide();
+    $("#displaySocial").hide();
+    $("#displayEducation").hide();
+    $("#displayHealth").hide();
+  });  
+
+    $("#navGovernment2").click(function(){
+    $("#displayGovernment").fadeIn(1500);
+    $("#mainNav480sub").hide();
+    $("#displayHome").hide();
+    $("#displayAbout").hide();
+    $("#displayServices").hide();
+    $("#displayPrograms").hide();
+    $("#navMenu2").hide();
+    $("#navMenu1").show();
+        
+    $("#displayBusiness").hide();
+    $("#displayCulture").hide();
+    $("#displayEnvironment").hide();
+    $("#displayHousing").hide();
+    $("#displaySocial").hide();
+    $("#displayEducation").hide();
+    $("#displayHealth").hide();
+  });      
+    
+    $("#navPrograms2").click(function(){
+    $("#displayPrograms").fadeIn(1500);
+    $("#mainNav480sub").hide();
+    $("#displayHome").hide();
+    $("#displayAbout").hide();
+    $("#displayServices").hide();
+    $("#displayGovernment").hide();
+    $("#navMenu2").hide();
+    $("#navMenu1").show();
+        
+    $("#displayBusiness").hide();
+    $("#displayCulture").hide();
+    $("#displayEnvironment").hide();
+    $("#displayHousing").hide();
+    $("#displaySocial").hide();
+    $("#displayEducation").hide();
+    $("#displayHealth").hide();
+  }); 
+       
+    
+    
+});
+</script>
+
+
+
+
+
+<section id="mainContainer">
+    
+    <nav id="mainNav">
+        
+        
+      
+        <a href="#" id="navAbout">About</a>
+  
+        <a href="#" id="navServices">Services</a>
+        <a href="#" id="navHome"><img src="img/chicago.png" alt="CHICAGO"></a>
+        <a href="#" id="navGovernment">Government</a>
+        <a href="#" id="navPrograms">Programs</a>
+    </nav>
+
+     <nav id="mainNav480">
+        <p style="text-align:center"><img id="480title" src="img/chicago.png" alt="CHICAGO"></p>
+        <br>
+
+        <a href="#" id="navMenu1">Menu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a href="#" id="navMenu2" style="display: none;">Menu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <br>
+        <div id="mainNav480sub" style="display: none;">
+            <a href="#" id="navHome2">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+            <a href="#" id="navAbout2">About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+            <a href="#" id="navServices2">Services&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+
+            <a href="#" id="navGovernment2">Government&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+            <a href="#" id="navPrograms2">Programs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+        </div>
+
+    </nav>   
+  
+   
+    
+    <section id="content">
+
+        
+        <div id="displayHome" >
+        <h4>City of Chicago</h4>
+        <h3>City of Chicago's Unofficial Site</h3>
+        <br><br><br>
+        <p id="scrollDown" style="text-align:center">Please Scroll Down</p>    
+        
+        </div>
+        
+       
+        <div id="displayAbout" style="display: none;">
+        <h4>About</h4>
+<img src="img/about.jpg" alt="About" style="float:left">
+The City of Chicago covers an  area of 60,000 hectares and sits 176 meters (578 feet) above sea level on the southwestern shore of Lake Michigan. At 190 km wide and 495 km long, its the 5th largest body of fresh water in the world. The city is traversed by the Chicago and Calumet rivers. Chicago's extensive parklands, including 3,000 hectares of city parks attract an estimated 86 million visitors annually.
+As a multicultural city that thrives on the harmony and diversity of its neighborhoods, Chicago today embodies the values of America's heartland-integrity, hard work and community and reflects the ideals in the social fabric of  its 77 distinct neighborhoods.
+Chicago is recognized across the United States as a very passionate sports town.
+Chicago is a leader in reforming public schools, enhancing public safety and security initiatives, providing affordable housing in attractive and economically sound communities, ensuring accessibility for all and fostering, social, economic and environmental sustainability.
+    </div>
+  
+        <div id="displayServices" style="display: none;">
+        <h4>Services</h4>
+<ul>
+<li><a target="_blank" href="http://311request.cityofchicago.org/reports/new?service_id=4ffa4c69601827691b000018" title="Abandoned Vehicle Complaint">Abandoned Vehicle Complaint</a></li>
+<li><a target="_blank" href="http://servicetracker.cityofchicago.org/" title="Check the Status of a Service Request">Check the Status of a Service Request</a></li>
+<li><a target="_blank" href="http://311request.cityofchicago.org/reports/new?service_id=4fd3bd72e750846c530000cd" title="Building Violation">Building Violation</a></li>
+<li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/depts/fss/provdrs/emerg/svcs/how_to_find_emergencyfoodassistanceinchicago.html"  title="Emergency Food Assistance">Emergency Food Assistance</a></li>
+<li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/depts/fss/provdrs/emerg/svcs/how_to_find_weatherreliefinchicago.html"  title="Emergency Weather Relief /Shelters">Emergency Weather Relief /Shelters</a></li>
+<li><a target="_blank" href="http://311request.cityofchicago.org/reports/new?service_id=4fd3b167e750846744000005" title="Graffiti Removal">Graffiti Removal</a></li>
+<li><a target="_blank" href="http://311request.cityofchicago.org/reports/new?service_id=4ffa9f2d6018277d400000c8" title="Street Light - 1/Out">Street Light - 1/Out</a></li>
+<li><a target="_blank" href="http://311request.cityofchicago.org/reports/new?service_id=4fd3b656e750846c53000004" title="Report a Pothole in Street">Report a Pothole in Street</a></li>
+<li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/depts/cdot/provdrs/street/svcs/report_an_alley_pothole.html"  title="Report an Alley Pothole">Report an Alley Pothole</a></li>
+<li><a target="_blank" href="http://311request.cityofchicago.org/reports/new?service_id=4ffa9cad6018277d4000007b" title="Report Alley Light Out">Report Alley Light Out</a></li>
+<li><a target="_blank" href="http://311request.cityofchicago.org/reports/new?service_id=4fd3b9bce750846c5300004a" title="Rat Complaint">Rodent Baiting/Rat Complaint</a></li>
+<li><a target="_blank" href="http://311request.cityofchicago.org/reports/new?service_id=4fd3b750e750846c5300001d" title="Sanitation Code Violation">Sanitation Code Violation</a></li>
+<li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/depts/fss/provdrs/senior/svcs/senior_well_beingcheck.html"  title="Senior Well Being Check">Senior Well Being Check</a></li>
+<li><a target="_blank" href="https://servicerequest.cityofchicago.org/web_intake_chic/Controller?op=locform&amp;invSRType=CHECKFOR&amp;invSRDesc=Check-for-Cleaning&amp;locreq=Y" title="Sewer Cleaning Inspection">Sewer Cleaning Inspection</a></li>
+<li><a target="_blank" href="http://www.cityofchicago.org/city/en/depts/cdot/provdrs/traffic_signals_andstreetlights/svcs/bldgviolstatus.html" title="Street Light Missing / Street Light Out Service Request">Street Light Missing / Street Light Out Service Request</a></li>
+<li><a target="_blank" href="https://servicerequest.cityofchicago.org/web_intake_chic/Controller?op=locform&amp;invSRType=SDO&amp;invSRDesc=Ice%20and%20Snow&amp;locreq=Y&amp;stnumreqd=Y" title="Ice and Snow">Ice and Snow</a></li>
+<li><a target="_blank" href="https://servicerequest.cityofchicago.org/web_intake_chic/Controller?op=locform&amp;invSRType=SWSNOREM&amp;invSRDesc=Snow%20-%20Uncleared%20Sidewalk&amp;locreq=Y&amp;stnumreqd=Y" title="Snow - Uncleared Sidewalk">Snow - Uncleared Sidewalk</a></li>
+</ul>       
+        </div>
+        
+        
+         <div id="displayGovernment" style="display: none;">
+        <h4>Government</h4>
+ The City of Chicago is located on Lake Michigan, in Cook County, in northeastern  Illinois.
+City government is divided into executive and legislative branches.  The mayor is the chief executive while the City Council, elected from 50 wards,  is the legislative body. Government priorities and activities are  established in a budget ordinance usually adopted in November of each year. The  city takes official action through the passage of ordinances and  resolutions. In addition to the Mayor, Chicago's two other city-wide  elected officials are the City Clerk and the City Treasurer
+<br><a target="_blank" href="http://www.cityofchicago.org/content/city/en/depts/mayor.html"  title="Mayor's Office Department Page">Mayor's Office</a>
+<br><a target="_blank" href="http://www.chicagocitytreasurer.com/" title="Chicago City Treasurer">City Treasurer</a>
+<br><a target="_blank" href="http://www.chicityclerk.com/" title="Chicago City Clerk">City Clerk</a>
+<br><a target="_blank" href="http://cityinfo.cityofchicago.org/PhoneBook/PhoneBook" title="City Employee Directory">City Employee Directory</a>
+<br><a target="_blank" href="http://www.cityofchicago.org/content/city/en/about/council.html"  title="City Council, Your Ward &amp; Alderman">City Council, Your Ward &amp; Alderman</a>
+<br><a target="_blank" href="http://chicityclerk.com/legislation-records/">Ordinances</a>
+<br><a target="_blank" href="http://www.cityofchicago.org/content/city/en/about/other_ag.html"  title="Other City, County, and State Agencies">Other City County &amp; State Agencies</a>
+<br><a target="_blank" href="http://www.cityofchicago.org/content/city/en/depts/dhr.html">City Employment</a>
+<br><a target="_blank" href="http://www.cityofchicago.org/content/city/en/depts.html"  title="City Department Directory">Department Directory</a>   
+        </div>    
+    
+
+
+         <div id="displayPrograms" style="display: none;">
+        <h4>Programs</h4>
+
+
+                                <ul>
+                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/affordchic.html" title="Affordable Chicago">Affordable Chicago</a></li>
+                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/protect.html" title="Consumer Protection">Consumer Protection</a></li>
+                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/edu.html" title="Education">Education</a></li>
+                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/env.html" title="Environment">Environment</a></li>
+                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/foia.html" title="Freedom of Information (FOIA)">Freedom of Information (FOIA)</a></li>
+                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/grants.html" title="Grants">Grants</a></li>
+                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/health.html" title="Health & Wellness">Health & Wellness</a></li>
+                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/hous.html" title="Housing">Housing</a></li>
+                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/inspectionspermitting.html" title="Inspections, Permitting & Licensing">Inspections, Permitting & Licensing</a></li>
+
+                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/emp.html" title="Jobs">Jobs</a></li>
+                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/electricity_aggregation.html" title="Municipal Aggregation">Municipal Aggregation</a></li>
+                                
+                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/recovery_reinvest.html" title="Recovery & Reinvestment (Stimulus)">Recovery & Reinvestment (Stimulus)</a></li>
+                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/safety.html" title="Safety">Safety</a></li>
+                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/tax.html" title="Taxes">Taxes</a></li>
+                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/tech.html" title="Technology">Technology</a></li>
+                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/transparency.html" title="Transparency">Transparency</a></li>
+                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/trnsprt.html" title="Transportation">Transportation</a></li>
+                                </ul>
+
+        </div>
+
+        
+        
+        
+<div id="displayBusiness" style="display: none;">
+<h4>Business</h4>
+The Small Business Center (SBC) issues business licenses and regulates the business activities of industries as diverse as retail, food and liquor establishments, entertainment venues and theaters, day care centers, manufacturing facilities and motor vehicle repair shops just to name a few.
+
+Please click on the "Get Started Online" button below to find:
+
+Instructions on how to apply for a business license online or in-person;
+A complete list of all City of Chicago business licenses;
+Specific business license application requirements and more.
+</div>
+
+        
+<div id="displayCulture" style="display: none;">
+<h4>Culture</h4>
+Drawn by its beauty and the fabulous free public events, hundreChicago Cultural Center's First Floor Garland Galleryds of thousands of visitors come to the Chicago Cultural Center every year, making it one of the most visited attractions in Chicago. The stunning landmark building is home to two magnificent stained-glass domes, as well as free music, dance and theater events, films, lectures, art exhibitions and family events.
+</div>
+
+<div id="displayEnvironment" style="display: none;">
+<h4>Environment</h4>
+"I want Chicago to be the greenest city in the world, and I am committed to fostering opportunities for Chicagoans to make sustainability a part of their lives and their experience in the city." -- Mayor Emanuel
+
+The City of Chicago is a leader of innovative environmental initiatives, and sustainability is a key focus of Chicago’s policies.  From the Chicago Climate Action Plan's broad leadership to the City's targeted energy efficiency investments, Chicago is integrating sustainability in the places residents work, live, learn, and play while preparing for a resilient future.
+
+Creating a green, sustainable city requires hard work, cooperation and a commitment from local government as well as every individual, business and institution in the city. Learn more about what the City is doing and what you can do by exploring the links below, by signing up for the monthly Chicago Sustainability E-News and by following us on Twitter.
+</div>
+
+<div id="displayHousing" style="display: none;">
+<h4>Housing & Development</h4>
+The Department of Housing and Economic Development promotes affordable, for-sale and rental housing in communities citywide, provides financial assistance for housing improvements, facilitate access and independent living for seniors and the disabled, and offers a variety of programs that help residents reduce property taxes, refinance their mortgages, and avoid foreclosure. It also helps locate for-sale and and rental homes for residents needing housing assistance.
+</div>
+
+<div id="displaySocial" style="display: none;">
+<h4>Social Services</h4>
+The City of Chicago Department of Family and Support Services offers a range of funding opportunities and technical support for social service providers who serve Chicago’s most vulnerable communities.
+</div>
+
+<div id="displayEducation" style="display: none;">
+<h4>Education</h4>
+The City of Chicago provides tools, resources, special programs, and education training for students, job seekers, and professionals seeking development.  Provided below are links to Services, News, Alerts, and Supporting Information from all departments across the City, on topics relevant to Education and educational opportunities in Chicago.
+From business seminars hosted by the Department of Business Affairs & Consumer Protection, to special tools for Educators, we hope you will find this information interesting and useful!
+</div>
+        
+<div id="displayHealth" style="display: none;">
+<h4>Health</h4>
+The City of Chicago focus on Chicagoans Health and Wellness, our goal is to make Chicago “The Healthiest City in the U.S.”  The City of Chicago works with community partners, internal departments to promote health, prevent disease, reduce environmental hazards and insure access to health care for all Chicagoans.
+</div>
+        
+    </section>
+    
+
+    
+    <nav id="sidebar">
+            <h3> Navigation</h3>
+            <ul>
+            <li><a href="#" id="snavBusiness">Business</a></li>
+            <li><a href="#" id="snavCulture">Culture & Recreation</a></li>
+            <li><a href="#" id="snavEnvironment">Environment</a></li>
+            <li><a href="#" id="snavHousing">Housing & Development</a></li>
+            <li><a href="#" id="snavSocial">Social Services</a></li>
+            <li><a href="#" id="snavEducation">Education</a></li>
+            <li><a href="#" id="snavHealth">Health</a></li>
+            </ul>  
+    </nav>
+    
+    <footer id="footer">
+        <h3>News</h3>
+
+    </footer>
+
+<div id="newsContainerTop">
+
+    
+    <div id="newsLeftTop">
+	November 12, 2014<br>
+			<strong>Long-term Future</strong><br>
+			<a href="http://espn.go.com/chicago/nba/story/_/id/11860080/derrick-rose-chicago-bulls-acknowledges-concerns-long-term-health" target="_blank">
+			<img src="newsitems/1_drose.jpg" alt="NewsPhoto"><br>
+			</a>
+			CHICAGO -- After watching his basketball life flash before his eyes over the past three seasons as he battled a litany of injuries, Chicago Bulls guard Derrick Rose reiterated after Tuesday's practice that he is thinking about his long-term future more than ever.
+  
+	</div>
+    
+    <div id="newsMiddleTop">
+
+			November 12, 2014<br>
+			<strong>Bicyclist Killed</strong>
+			<a href="http://www.chicagotribune.com/news/local/breaking/chi-bicyclist-killed-by-semitruck-in-lansing-20141112-story.html" target="_blank">
+			<img src="newsitems/2_bike.jpg" alt="NewsPhoto"><br>
+			</a>
+			A bicyclist was killed early Wednesday morning when he was struck by a semitrailer in south suburban Lansing, officials said.
+	
+    </div>
+    
+    <div id="newsRightTop">
+    
+			November 12, 2014<br>
+			<strong>SRO Preservation Law</strong>
+			<a href="http://www.chicagotribune.com/business/ct-chicago-sro-ordinance-1113-biz-20141112-story.html" target="_blank">
+			<img src="newsitems/3_ram.jpg" alt="NewsPhoto"><br>
+			</a>
+			Owners of single-room-occupancy hotels in Chicago will not be able to so easily evict residents and convert their properties to market-rate apartments, under an ordinance approved Wednesday by the Chicago City Council.	
+				
+    </div>
+</div>	
+	
+<div id="newsContainerBot">
+
+    
+    <div id="newsLeftBot">
+
+			November 13, 2014<br>
+			<strong>Right to Bare Breasts</strong>
+			<a href="http://www.chicagotribune.com/news/local/breaking/ct-topless-lawsuit-met-20141112-story.html" target="_blank">
+			<img src="newsitems/4_topless.jpg" alt="NewsPhoto"><br>
+			</a>
+			A woman ticketed in August for going topless during an event at Chicago's lakefront to promote women's rights to bare their breasts in public filed a federal lawsuit Wednesday claiming the city's ordinance against the practice is unconstitutional.
+				
+    </div>
+    
+    <div id="newsMiddleBot">
+
+			November 10, 2014<br>
+			<strong>Food Truck Bullies</strong>
+			<a href="http://www.chicagotribune.com/news/opinion/commentary/ct-rickert-chicago-food-truck-rules-perspec-1111-20141110-story.html" target="_blank">
+			<img src="newsitems/5_truck.jpg" alt="NewsPhoto"><br>
+			</a>
+			When Laura Pekarik filed a lawsuit challenging Chicago's strict food truck rules, she expected the battle to play out in court. What she didn't expect was for the city to bring her family into it.
+	
+    </div>
+    
+    <div id="newsRightBot">
+			November 12, 2014<br>
+			<strong>Civil Rights</strong>
+			
+			<video width="300" height="280" controls>
+			<source src="newsitems/6_video.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+			</video><br> 
+	Civil Rights Speech MP4 April 10, 2014 Austin, Texas		
+    </div>
+</div>	
+    
+</section>    
+    
+</body>
+
+</html>
