@@ -15,7 +15,8 @@
   src: local('Merienda'), local('Merienda-Regular_0_wt'), url(http://fonts.gstatic.com/s/merienda/v4/4NYVQDcgs3Fbi_xdFMC7lHYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
 }
 
-strong{
+
+.newsTitle{
     font-size:200%;
 }
    
@@ -38,6 +39,34 @@ a {
     text-decoration: none;
 }
 
+
+#menudash1{
+ color: #FF0000;       
+}
+
+#menudash2{
+ color: #FF0000;       
+}
+
+#menudash3{
+ color: #FF0000;       
+}
+
+#menudash4{
+ color: #FF0000;       
+}
+
+#menudash5{
+ color: #FF0000;       
+}
+
+#menudash6{
+ color: #FF0000;       
+}
+
+#menudash7{
+ color: #FF0000;       
+}
 #newsContainerTop{
 
     font-family: 'Roboto Slab', serif;
@@ -187,7 +216,7 @@ a {
 @media all and (max-width: 480px){
     
 
-strong{
+.newsTitle{
     font-size:200%;
 }
    
