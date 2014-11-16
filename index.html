@@ -1,627 +1,188 @@
-<!DOCTYPE HTML>
-
-<head>
-<title>HTML5 Assignment - Fall 2014</title>
-<link href="myStyle.css" rel="stylesheet" type="text/css">
-<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
-</head>
-
-<body>
-
-<script type="text/javascript">
-$(document).ready(function(){
-  $("#navAbout").click(function(){
-        $("#displayServices").hide();
-        $("#displayHome").hide();
-        $("#displayGovernment").hide();
-        $("#displayPrograms").hide();
-        $("#displayBusiness").hide();
-        $("#displayCulture").hide();
-        $("#displayEnvironment").hide();
-        $("#displayHousing").hide();
-        $("#displaySocial").hide();
-        $("#displayEducation").hide();
-        $("#displayHealth").hide();
-        $("#displayTour").hide();
-      
-  });   
-    $("#navAbout").click(function(){
-    $("#displayAbout").fadeIn(1500);
-  });
+<!DOCTYPE html>
+<html>
     
-    
-    $("#navServices").click(function(){
-        $("#displayAbout").hide();
-        $("#displayHome").hide();
-        $("#displayGovernment").hide();
-        $("#displayPrograms").hide();
-        $("#displayBusiness").hide();
-        $("#displayCulture").hide();
-        $("#displayEnvironment").hide();
-        $("#displayHousing").hide();
-        $("#displaySocial").hide();
-        $("#displayEducation").hide();
-        $("#displayHealth").hide();
-        $("#displayTour").hide();
-  });   
-    $("#navServices").click(function(){
-    $("#displayServices").fadeIn(1500);
-  });    
-
-    
-    $("#navHome").click(function(){
-        $("#displayAbout").hide();
-        $("#displayServices").hide();
-        $("#displayGovernment").hide();
-        $("#displayPrograms").hide();
-        $("#displayBusiness").hide();
-        $("#displayCulture").hide();
-        $("#displayEnvironment").hide();
-        $("#displayHousing").hide();
-        $("#displaySocial").hide();
-        $("#displayEducation").hide();
-        $("#displayHealth").hide();
-
-  });   
-    $("#navHome").click(function(){
-    $("#displayHome").fadeIn(1500);
-  }); 
-    
-    $("#navGovernment").click(function(){
-        $("#displayAbout").hide();
-        $("#displayServices").hide();
-        $("#displayHome").hide();
-        $("#displayPrograms").hide();
-        $("#displayBusiness").hide();
-        $("#displayCulture").hide();
-        $("#displayEnvironment").hide();
-        $("#displayHousing").hide();
-        $("#displaySocial").hide();
-        $("#displayEducation").hide();
-        $("#displayHealth").hide();
-      
-  });   
-    $("#navGovernment").click(function(){
-    $("#displayGovernment").fadeIn(1500);
-  }); 
-    
-  
-    $("#navPrograms").click(function(){
-        $("#displayAbout").hide();
-        $("#displayServices").hide();
-        $("#displayHome").hide();
-        $("#displayGovernment").hide();
-        $("#displayBusiness").hide();
-        $("#displayCulture").hide();
-        $("#displayEnvironment").hide();
-        $("#displayHousing").hide();
-        $("#displaySocial").hide();
-        $("#displayEducation").hide();
-        $("#displayHealth").hide();
-    
-  });   
-    $("#navPrograms").click(function(){
-    $("#displayPrograms").fadeIn(1500);
-  }); 
-
-/**************** Side Menu **************/  
-/*****************************************/
-    
-    $("#snavBusiness").click(function(){
-        $("#displayBusiness").fadeIn(1500);
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>GETTING STARTED WITH BRACKETS</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
         
-        $("#displayAbout").hide();
-        $("#displayServices").hide();
-        $("#displayHome").hide();
-        $("#displayGovernment").hide();
-        $("#displayPrograms").hide();
+        <h1>GETTING STARTED WITH BRACKETS</h1>
+        <h2>This is your guide!</h2>
         
-        $("#displayCulture").hide();
-        $("#displayEnvironment").hide();
-        $("#displayHousing").hide();
-        $("#displaySocial").hide();
-        $("#displayEducation").hide();
-        $("#displayHealth").hide();
-  });   
-
-    $("#snavCulture").click(function(){
-        $("#displayCulture").fadeIn(1500);
+        <!--
+            MADE WITH <3 AND JAVASCRIPT
+        -->
         
-        $("#displayAbout").hide();
-        $("#displayServices").hide();
-        $("#displayHome").hide();
-        $("#displayGovernment").hide();
-        $("#displayPrograms").hide();
+        <p>
+            Welcome to Brackets, a modern open-source code editor that understands web design. It's a lightweight, 
+            yet powerful, code editor that blends visual tools into the editor so you get the right amount of help 
+            when you want it.
+        </p>
         
-        $("#displayBusiness").hide();
-        $("#displayEnvironment").hide();
-        $("#displayHousing").hide();
-        $("#displaySocial").hide();
-        $("#displayEducation").hide();
-        $("#displayHealth").hide();
-  });   
-
-     $("#snavEnvironment").click(function(){
-        $("#displayEnvironment").fadeIn(1500);
+        <!--
+            WHAT IS BRACKETS?
+        -->
+        <p>
+            <em>Brackets is a different type of editor.</em>
+            Brackets has some unique features like Quick Edit, Live Preview and others that you may not find in other 
+            editors. And Brackets is written in JavaScript, HTML and CSS. That means that most of you using Brackets 
+            have the skills necessary to modify and extend the editor. In fact, we use Brackets every day to build 
+            Brackets. To learn more about how to use the key features, read on.
+            
+        </p>
         
-        $("#displayAbout").hide();
-        $("#displayServices").hide();
-        $("#displayHome").hide();
-        $("#displayGovernment").hide();
-        $("#displayPrograms").hide();
+        <!--
+            GET STARTED WITH YOUR OWN FILES
+        -->
         
-        $("#displayBusiness").hide();
-        $("#displayCulture").hide();
-        $("#displayHousing").hide();
-        $("#displaySocial").hide();
-        $("#displayEducation").hide();
-        $("#displayHealth").hide();
-  });     
-  
-     $("#snavHousing").click(function(){
-        $("#displayHousing").fadeIn(1500);
+        <h3>Projects in Brackets</h3>
+        <p>
+            In order to edit your own code using Brackets, you can just open the folder containing your files.
+            Brackets treats the currently open folder as a "project"; features like Code Hints, Live Preview and
+            Quick Edit only use files within the currently open folder.
+        </p>
         
-        $("#displayAbout").hide();
-        $("#displayServices").hide();
-        $("#displayHome").hide();
-        $("#displayGovernment").hide();
-        $("#displayPrograms").hide();
+        <samp>
+            Once you're ready to get out of this sample project and edit your own code, you can use the dropdown
+            in the left sidebar to switch folders. Right now, the dropdown says "Getting Started" - that's the
+            folder containing the file you're looking at right now. Click on the dropdown and choose "Open Folder…"
+            to open your own folder.
+            You can also use the dropdown later to switch back to folders you've opened previously, including this
+            sample project.
+        </samp>
         
-        $("#displayBusiness").hide();
-        $("#displayCulture").hide();
-        $("#displayEnvironment").hide();
-        $("#displaySocial").hide();
-        $("#displayEducation").hide();
-        $("#displayHealth").hide();
-  });     
-    
-        $("#snavSocial").click(function(){
-        $("#displaySocial").fadeIn(1500);
+        <!--
+            THE RELATIONSHIP BETWEEN HTML, CSS AND JAVASCRIPT
+        -->
+        <h3>Quick Edit for CSS and JavaScript</h3>
+        <p>
+            No more switching between documents and losing your context. When editing HTML, use the
+            <kbd>Cmd/Ctrl + E</kbd> shortcut to open a quick inline editor that displays all the related CSS.
+            Make a tweak to your CSS, hit <kbd>ESC</kbd> and you're back to editing HTML, or just leave the
+            CSS rules open and they'll become part of your HTML editor. If you hit <kbd>ESC</kbd> outside of
+            a quick inline editor, they'll all collapse. Quick Edit will also find rules defined in LESS and 
+            SCSS files, including nested rules.
+        </p>
+
+        <samp>
+            Want to see it in action? Place your cursor on the <!-- <samp> --> tag above and press
+            <kbd>Cmd/Ctrl + E</kbd>. You should see a CSS quick editor appear above, showing the CSS rule that
+            applies to it. Quick Edit works in class and id attributes as well. You can use it with your
+            LESS and SCSS files also.
+            
+            You can create new rules the same way. Click in one of the <!-- <p> --> tags above and press
+            <kbd>Cmd/Ctrl + E</kbd>. There are no rules for it right now, but you can click the New Rule
+            button to add a new rule for <!-- <p> -->.
+        </samp>
         
-        $("#displayAbout").hide();
-        $("#displayServices").hide();
-        $("#displayHome").hide();
-        $("#displayGovernment").hide();
-        $("#displayPrograms").hide();
+        <a href="screenshots/quick-edit.png">
+            <img alt="A screenshot showing CSS Quick Edit" src="screenshots/quick-edit.png" />
+        </a>
         
-        $("#displayBusiness").hide();
-        $("#displayCulture").hide();
-        $("#displayEnvironment").hide();
-        $("#displayHousing").hide();
-        $("#displayEducation").hide();
-        $("#displayHealth").hide();
-  }); 
-    
-        $("#snavEducation").click(function(){
-        $("#displayEducation").fadeIn(1500);
+        <p>
+            You can use the same shortcut to edit other things as well - like functions in JavaScript,
+            colors, and animation timing functions - and we're adding more and more all the time. 
+        </p>
+        <p>
+            For now inline editors cannot be nested, so you can only use Quick Edit while the cursor
+            is in a "full size" editor.
+        </p>
         
-        $("#displayAbout").hide();
-        $("#displayServices").hide();
-        $("#displayHome").hide();
-        $("#displayGovernment").hide();
-        $("#displayPrograms").hide();
+        <!--
+            LIVE PREVIEW
+        -->
+        <h3>Preview HTML and CSS changes live in the browser</h3>
+        <p>
+            You know that "save/reload dance" we've been doing for years? The one where you make changes in
+            your editor, hit save, switch to the browser and then refresh to finally see the result?
+            With Brackets, you don't have to do that dance.
+        </p>
+        <p>
+            Brackets will open a <em>live connection</em> to your local browser and push HTML and CSS updates as you
+            type! You might already be doing something like this today with browser-based tools, but with Brackets
+            there is no need to copy and paste the final code back into the editor. Your code runs in the
+            browser, but lives in your editor!
+        </p>
         
-        $("#displayBusiness").hide();
-        $("#displayCulture").hide();
-        $("#displayEnvironment").hide();
-        $("#displayHousing").hide();
-        $("#displaySocial").hide();
-        $("#displayHealth").hide();
-  });
-    
-        $("#snavHealth").click(function(){
-        $("#displayHealth").fadeIn(1500);
+        <h3>Live Highlight HTML elements and CSS rules</h3>
+        <p>
+            Brackets makes it easy to see how your changes in HTML and CSS will affect the page. When your cursor
+            is on a CSS rule, Brackets will highlight all affected elements in the browser. Similarly, when editing
+            an HTML file, Brackets will highlight the corresponding HTML elements in the browser.
+        </p>
         
-        $("#displayAbout").hide();
-        $("#displayServices").hide();
-        $("#displayHome").hide();
-        $("#displayGovernment").hide();
-        $("#displayPrograms").hide();
+        <samp>
+            If you have Google Chrome installed, you can try this out yourself. Click on the lightning bolt 
+            icon in the top right corner of your Brackets window or hit <kbd>Cmd/Ctrl + Alt + P</kbd>. When
+            Live Preview is enabled on an HTML document, all linked CSS documents can be edited in real-time.
+            The icon will change from gray to gold when Brackets establishes a connection to your browser.
+            
+            Now, place your cursor on the <!-- <img> --> tag above. Notice the blue highlight that appears
+            around the image in Chrome. Next, use <kbd>Cmd/Ctrl + E</kbd> to open up the defined CSS rules.
+            Try changing the size of the border from 10px to 20px or change the background
+            color from "transparent" to "hotpink". If you have Brackets and your browser running side-by-side, you
+            will see your changes instantly reflected in your browser. Cool, right?
+        </samp>
         
-        $("#displayBusiness").hide();
-        $("#displayCulture").hide();
-        $("#displayEnvironment").hide();
-        $("#displayHousing").hide();
-        $("#displaySocial").hide();
-        $("#displayEducation").hide();
- 
-  });   
-    
-/**************** Collapse Menu **************/   
-/*****************************************/
-    
-    $("#navMenu1").click(function(){
+        <p class="note">
+            Today, Brackets only supports Live Preview for HTML and CSS. However, in the current version, changes to
+            JavaScript files are automatically reloaded when you save. We are currently working on Live Preview
+            support for JavaScript. Live previews are also only possible with Google Chrome, but we hope
+            to bring this functionality to all major browsers in the future.
+        </p>
         
-        $("#mainNav480sub").show();
-        $("#navMenu2").show();
-        $("#navMenu1").hide();
-  }); 
-  
-        $("#navMenu2").click(function(){
+        <h3>Quick View</h3>
+        <p>
+            For those of us who haven't yet memorized the color equivalents for HEX or RGB values, Brackets makes
+            it quick and easy to see exactly what color is being used. In either CSS or HTML, simply hover over any
+            color value or gradient and Brackets will display a preview of that color/gradient automatically. The
+            same goes for images: simply hover over the image link in the Brackets editor and it will display a
+            thumbnail preview of that image.
+        </p>
         
-        $("#mainNav480sub").hide();
-        $("#navMenu2").hide();
-        $("#navMenu1").show();
-  }); 
-
- 
-    $("#navHome2").click(function(){
-    $("#displayHome").fadeIn(10000);
-    $("#mainNav480sub").hide();
-    $("#displayAbout").hide();
-    $("#displayServices").hide();
-    $("#displayGovernment").hide();
-    $("#displayPrograms").hide();
-    $("#navMenu2").hide();
-    $("#navMenu1").show();
+        <samp>
+            To try out Quick View for yourself, place your cursor on the <!-- <body> --> tag at the top of this
+            document and press <kbd>Cmd/Ctrl + E</kbd> to open a CSS quick editor. Now simply hover over any of the
+            color values within the CSS. You can also see it in action on gradients by opening a CSS quick editor
+            on the <!-- <html> --> tag and hovering over any of the background image values. To try out the image
+            preview, place your cursor over the screenshot image included earlier in this document.
+        </samp>
         
-    $("#displayBusiness").hide();
-    $("#displayCulture").hide();
-    $("#displayEnvironment").hide();
-    $("#displayHousing").hide();
-    $("#displaySocial").hide();
-    $("#displayEducation").hide();
-    $("#displayHealth").hide();
-  });    
-    
-    $("#navAbout2").click(function(){
-    $("#displayAbout").fadeIn(1500);
-    $("#mainNav480sub").hide();
-    $("#displayHome").hide();
-    $("#displayServices").hide();
-    $("#displayGovernment").hide();
-    $("#displayPrograms").hide();
-    $("#navMenu2").hide();
-    $("#navMenu1").show();
+        <h3>Need something else? Try an extension!</h3>
+        <p>
+            In addition to all the goodness that's built into Brackets, our large and growing community of
+            extension developers has built hundreds of extensions that add useful functionality. If there's
+            something you need that Brackets doesn't offer, more than likely someone has built an extension for
+            it. To browse or search the list of available extensions, choose <strong>File &gt; Extension
+            Manager</strong> and click on the "Available" tab. When you find an extension you want, just click
+            the "Install" button next to it.
+        </p>
         
-    $("#displayBusiness").hide();
-    $("#displayCulture").hide();
-    $("#displayEnvironment").hide();
-    $("#displayHousing").hide();
-    $("#displaySocial").hide();
-    $("#displayEducation").hide();
-    $("#displayHealth").hide();
-  });
-    
-    $("#navServices2").click(function(){
-    $("#displayServices").fadeIn(1500);
-    $("#mainNav480sub").hide();
-    $("#displayHome").hide();
-    $("#displayAbout").hide();
-    $("#displayGovernment").hide();
-    $("#displayPrograms").hide();
-    $("#navMenu2").hide();
-    $("#navMenu1").show();
+        <!--
+            LET US KNOW WHAT YOU THINK
+        -->
+        <h2>Get involved</h2>
+        <p>
+            Brackets is an open-source project. Web developers from around the world are contributing to build 
+            a better code editor. Many more are building extensions that expand the capabilities of Brackets.
+            Let us know what you think, share your ideas or contribute directly to the project.
+        </p>
+        <ul>
+            <li><a href="http://brackets.io">Brackets.io</a></li>
+            <li><a href="http://blog.brackets.io">Brackets Team Blog</a></li>
+            <li><a href="https://github.com/adobe/brackets">Brackets on GitHub</a></li>
+            <li><a href="https://brackets-registry.aboutweb.com">Brackets Extension Registry</a></li>
+            <li><a href="https://github.com/adobe/brackets/wiki">Brackets Wiki</a></li>
+            <li><a href="https://groups.google.com/forum/#!forum/brackets-dev">Brackets Developer Mailing List</a></li>
+            <li><a href="https://twitter.com/brackets">@brackets on Twitter</a></li>
+            <li>Chat with Brackets developers on IRC in <a href="http://webchat.freenode.net/?channels=brackets&uio=d4">#brackets on Freenode</a></li>
+        </ul>
         
-    $("#displayBusiness").hide();
-    $("#displayCulture").hide();
-    $("#displayEnvironment").hide();
-    $("#displayHousing").hide();
-    $("#displaySocial").hide();
-    $("#displayEducation").hide();
-    $("#displayHealth").hide();
-  });  
-
-    $("#navGovernment2").click(function(){
-    $("#displayGovernment").fadeIn(1500);
-    $("#mainNav480sub").hide();
-    $("#displayHome").hide();
-    $("#displayAbout").hide();
-    $("#displayServices").hide();
-    $("#displayPrograms").hide();
-    $("#navMenu2").hide();
-    $("#navMenu1").show();
-        
-    $("#displayBusiness").hide();
-    $("#displayCulture").hide();
-    $("#displayEnvironment").hide();
-    $("#displayHousing").hide();
-    $("#displaySocial").hide();
-    $("#displayEducation").hide();
-    $("#displayHealth").hide();
-  });      
-    
-    $("#navPrograms2").click(function(){
-    $("#displayPrograms").fadeIn(1500);
-    $("#mainNav480sub").hide();
-    $("#displayHome").hide();
-    $("#displayAbout").hide();
-    $("#displayServices").hide();
-    $("#displayGovernment").hide();
-    $("#navMenu2").hide();
-    $("#navMenu1").show();
-        
-    $("#displayBusiness").hide();
-    $("#displayCulture").hide();
-    $("#displayEnvironment").hide();
-    $("#displayHousing").hide();
-    $("#displaySocial").hide();
-    $("#displayEducation").hide();
-    $("#displayHealth").hide();
-  }); 
-       
-    
-    
-});
-</script>
-
-
-
-
-
-<section id="mainContainer">
-    
-    <nav id="mainNav">
-        
-        
-      
-        <a href="#" id="navAbout">About</a>
-  
-        <a href="#" id="navServices">Services</a>
-        <a href="#" id="navHome"><img src="img/chicago.png" alt="CHICAGO"></a>
-        <a href="#" id="navGovernment">Government</a>
-        <a href="#" id="navPrograms">Programs</a>
-    </nav>
-
-     <nav id="mainNav480">
-        <p style="text-align:center"><img id="480title" src="img/chicago.png" alt="CHICAGO"></p>
-        <br>
-
-        <a href="#" id="navMenu1">Menu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-        <a href="#" id="navMenu2" style="display: none;">Menu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-        <br>
-        <div id="mainNav480sub" style="display: none;">
-            <a href="#" id="navHome2">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
-            <a href="#" id="navAbout2">About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
-            <a href="#" id="navServices2">Services&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
-
-            <a href="#" id="navGovernment2">Government&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
-            <a href="#" id="navPrograms2">Programs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
-        </div>
-
-    </nav>   
-  
-   
-    
-    <section id="content">
-
-        
-        <div id="displayHome" >
-        <h4>City of Chicago</h4>
-        <h3>City of Chicago's Unofficial Site</h3>
-        <br><br><br>
-        <p id="scrollDown" style="text-align:center">Please Scroll Down</p>    
-        
-        </div>
-        
-       
-        <div id="displayAbout" style="display: none;">
-        <h4>About</h4>
-<img src="img/about.jpg" alt="About" style="float:left">
-The City of Chicago covers an  area of 60,000 hectares and sits 176 meters (578 feet) above sea level on the southwestern shore of Lake Michigan. At 190 km wide and 495 km long, its the 5th largest body of fresh water in the world. The city is traversed by the Chicago and Calumet rivers. Chicago's extensive parklands, including 3,000 hectares of city parks attract an estimated 86 million visitors annually.
-As a multicultural city that thrives on the harmony and diversity of its neighborhoods, Chicago today embodies the values of America's heartland-integrity, hard work and community and reflects the ideals in the social fabric of  its 77 distinct neighborhoods.
-Chicago is recognized across the United States as a very passionate sports town.
-Chicago is a leader in reforming public schools, enhancing public safety and security initiatives, providing affordable housing in attractive and economically sound communities, ensuring accessibility for all and fostering, social, economic and environmental sustainability.
-    </div>
-  
-        <div id="displayServices" style="display: none;">
-        <h4>Services</h4>
-<ul>
-<li><a target="_blank" href="http://311request.cityofchicago.org/reports/new?service_id=4ffa4c69601827691b000018" title="Abandoned Vehicle Complaint">Abandoned Vehicle Complaint</a></li>
-<li><a target="_blank" href="http://servicetracker.cityofchicago.org/" title="Check the Status of a Service Request">Check the Status of a Service Request</a></li>
-<li><a target="_blank" href="http://311request.cityofchicago.org/reports/new?service_id=4fd3bd72e750846c530000cd" title="Building Violation">Building Violation</a></li>
-<li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/depts/fss/provdrs/emerg/svcs/how_to_find_emergencyfoodassistanceinchicago.html"  title="Emergency Food Assistance">Emergency Food Assistance</a></li>
-<li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/depts/fss/provdrs/emerg/svcs/how_to_find_weatherreliefinchicago.html"  title="Emergency Weather Relief /Shelters">Emergency Weather Relief /Shelters</a></li>
-<li><a target="_blank" href="http://311request.cityofchicago.org/reports/new?service_id=4fd3b167e750846744000005" title="Graffiti Removal">Graffiti Removal</a></li>
-<li><a target="_blank" href="http://311request.cityofchicago.org/reports/new?service_id=4ffa9f2d6018277d400000c8" title="Street Light - 1/Out">Street Light - 1/Out</a></li>
-<li><a target="_blank" href="http://311request.cityofchicago.org/reports/new?service_id=4fd3b656e750846c53000004" title="Report a Pothole in Street">Report a Pothole in Street</a></li>
-<li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/depts/cdot/provdrs/street/svcs/report_an_alley_pothole.html"  title="Report an Alley Pothole">Report an Alley Pothole</a></li>
-<li><a target="_blank" href="http://311request.cityofchicago.org/reports/new?service_id=4ffa9cad6018277d4000007b" title="Report Alley Light Out">Report Alley Light Out</a></li>
-<li><a target="_blank" href="http://311request.cityofchicago.org/reports/new?service_id=4fd3b9bce750846c5300004a" title="Rat Complaint">Rodent Baiting/Rat Complaint</a></li>
-<li><a target="_blank" href="http://311request.cityofchicago.org/reports/new?service_id=4fd3b750e750846c5300001d" title="Sanitation Code Violation">Sanitation Code Violation</a></li>
-<li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/depts/fss/provdrs/senior/svcs/senior_well_beingcheck.html"  title="Senior Well Being Check">Senior Well Being Check</a></li>
-<li><a target="_blank" href="https://servicerequest.cityofchicago.org/web_intake_chic/Controller?op=locform&amp;invSRType=CHECKFOR&amp;invSRDesc=Check-for-Cleaning&amp;locreq=Y" title="Sewer Cleaning Inspection">Sewer Cleaning Inspection</a></li>
-<li><a target="_blank" href="http://www.cityofchicago.org/city/en/depts/cdot/provdrs/traffic_signals_andstreetlights/svcs/bldgviolstatus.html" title="Street Light Missing / Street Light Out Service Request">Street Light Missing / Street Light Out Service Request</a></li>
-<li><a target="_blank" href="https://servicerequest.cityofchicago.org/web_intake_chic/Controller?op=locform&amp;invSRType=SDO&amp;invSRDesc=Ice%20and%20Snow&amp;locreq=Y&amp;stnumreqd=Y" title="Ice and Snow">Ice and Snow</a></li>
-<li><a target="_blank" href="https://servicerequest.cityofchicago.org/web_intake_chic/Controller?op=locform&amp;invSRType=SWSNOREM&amp;invSRDesc=Snow%20-%20Uncleared%20Sidewalk&amp;locreq=Y&amp;stnumreqd=Y" title="Snow - Uncleared Sidewalk">Snow - Uncleared Sidewalk</a></li>
-</ul>       
-        </div>
-        
-        
-         <div id="displayGovernment" style="display: none;">
-        <h4>Government</h4>
- The City of Chicago is located on Lake Michigan, in Cook County, in northeastern  Illinois.
-City government is divided into executive and legislative branches.  The mayor is the chief executive while the City Council, elected from 50 wards,  is the legislative body. Government priorities and activities are  established in a budget ordinance usually adopted in November of each year. The  city takes official action through the passage of ordinances and  resolutions. In addition to the Mayor, Chicago's two other city-wide  elected officials are the City Clerk and the City Treasurer
-<br><a target="_blank" href="http://www.cityofchicago.org/content/city/en/depts/mayor.html"  title="Mayor's Office Department Page">Mayor's Office</a>
-<br><a target="_blank" href="http://www.chicagocitytreasurer.com/" title="Chicago City Treasurer">City Treasurer</a>
-<br><a target="_blank" href="http://www.chicityclerk.com/" title="Chicago City Clerk">City Clerk</a>
-<br><a target="_blank" href="http://cityinfo.cityofchicago.org/PhoneBook/PhoneBook" title="City Employee Directory">City Employee Directory</a>
-<br><a target="_blank" href="http://www.cityofchicago.org/content/city/en/about/council.html"  title="City Council, Your Ward &amp; Alderman">City Council, Your Ward &amp; Alderman</a>
-<br><a target="_blank" href="http://chicityclerk.com/legislation-records/">Ordinances</a>
-<br><a target="_blank" href="http://www.cityofchicago.org/content/city/en/about/other_ag.html"  title="Other City, County, and State Agencies">Other City County &amp; State Agencies</a>
-<br><a target="_blank" href="http://www.cityofchicago.org/content/city/en/depts/dhr.html">City Employment</a>
-<br><a target="_blank" href="http://www.cityofchicago.org/content/city/en/depts.html"  title="City Department Directory">Department Directory</a>   
-        </div>    
-    
-
-
-         <div id="displayPrograms" style="display: none;">
-        <h4>Programs</h4>
-
-
-                                <ul>
-                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/affordchic.html" title="Affordable Chicago">Affordable Chicago</a></li>
-                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/protect.html" title="Consumer Protection">Consumer Protection</a></li>
-                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/edu.html" title="Education">Education</a></li>
-                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/env.html" title="Environment">Environment</a></li>
-                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/foia.html" title="Freedom of Information (FOIA)">Freedom of Information (FOIA)</a></li>
-                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/grants.html" title="Grants">Grants</a></li>
-                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/health.html" title="Health & Wellness">Health & Wellness</a></li>
-                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/hous.html" title="Housing">Housing</a></li>
-                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/inspectionspermitting.html" title="Inspections, Permitting & Licensing">Inspections, Permitting & Licensing</a></li>
-
-                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/emp.html" title="Jobs">Jobs</a></li>
-                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/electricity_aggregation.html" title="Municipal Aggregation">Municipal Aggregation</a></li>
-                                
-                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/recovery_reinvest.html" title="Recovery & Reinvestment (Stimulus)">Recovery & Reinvestment (Stimulus)</a></li>
-                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/safety.html" title="Safety">Safety</a></li>
-                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/tax.html" title="Taxes">Taxes</a></li>
-                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/tech.html" title="Technology">Technology</a></li>
-                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/transparency.html" title="Transparency">Transparency</a></li>
-                                    <li><a target="_blank" href="http://www.cityofchicago.org/content/city/en/progs/trnsprt.html" title="Transportation">Transportation</a></li>
-                                </ul>
-
-        </div>
-
-        
-        
-        
-<div id="displayBusiness" style="display: none;">
-<h4>Business</h4>
-The Small Business Center (SBC) issues business licenses and regulates the business activities of industries as diverse as retail, food and liquor establishments, entertainment venues and theaters, day care centers, manufacturing facilities and motor vehicle repair shops just to name a few.
-
-Please click on the "Get Started Online" button below to find:
-
-Instructions on how to apply for a business license online or in-person;
-A complete list of all City of Chicago business licenses;
-Specific business license application requirements and more.
-</div>
-
-        
-<div id="displayCulture" style="display: none;">
-<h4>Culture</h4>
-Drawn by its beauty and the fabulous free public events, hundreChicago Cultural Center's First Floor Garland Galleryds of thousands of visitors come to the Chicago Cultural Center every year, making it one of the most visited attractions in Chicago. The stunning landmark building is home to two magnificent stained-glass domes, as well as free music, dance and theater events, films, lectures, art exhibitions and family events.
-</div>
-
-<div id="displayEnvironment" style="display: none;">
-<h4>Environment</h4>
-"I want Chicago to be the greenest city in the world, and I am committed to fostering opportunities for Chicagoans to make sustainability a part of their lives and their experience in the city." -- Mayor Emanuel
-
-The City of Chicago is a leader of innovative environmental initiatives, and sustainability is a key focus of Chicago’s policies.  From the Chicago Climate Action Plan's broad leadership to the City's targeted energy efficiency investments, Chicago is integrating sustainability in the places residents work, live, learn, and play while preparing for a resilient future.
-
-Creating a green, sustainable city requires hard work, cooperation and a commitment from local government as well as every individual, business and institution in the city. Learn more about what the City is doing and what you can do by exploring the links below, by signing up for the monthly Chicago Sustainability E-News and by following us on Twitter.
-</div>
-
-<div id="displayHousing" style="display: none;">
-<h4>Housing & Development</h4>
-The Department of Housing and Economic Development promotes affordable, for-sale and rental housing in communities citywide, provides financial assistance for housing improvements, facilitate access and independent living for seniors and the disabled, and offers a variety of programs that help residents reduce property taxes, refinance their mortgages, and avoid foreclosure. It also helps locate for-sale and and rental homes for residents needing housing assistance.
-</div>
-
-<div id="displaySocial" style="display: none;">
-<h4>Social Services</h4>
-The City of Chicago Department of Family and Support Services offers a range of funding opportunities and technical support for social service providers who serve Chicago’s most vulnerable communities.
-</div>
-
-<div id="displayEducation" style="display: none;">
-<h4>Education</h4>
-The City of Chicago provides tools, resources, special programs, and education training for students, job seekers, and professionals seeking development.  Provided below are links to Services, News, Alerts, and Supporting Information from all departments across the City, on topics relevant to Education and educational opportunities in Chicago.
-From business seminars hosted by the Department of Business Affairs & Consumer Protection, to special tools for Educators, we hope you will find this information interesting and useful!
-</div>
-        
-<div id="displayHealth" style="display: none;">
-<h4>Health</h4>
-The City of Chicago focus on Chicagoans Health and Wellness, our goal is to make Chicago “The Healthiest City in the U.S.”  The City of Chicago works with community partners, internal departments to promote health, prevent disease, reduce environmental hazards and insure access to health care for all Chicagoans.
-</div>
-        
-    </section>
-    
-
-    
-    <nav id="sidebar">
-            <h3> Navigation</h3>
-            <ul>
-            <li><a href="#" id="snavBusiness">Business</a></li>
-            <li><a href="#" id="snavCulture">Culture & Recreation</a></li>
-            <li><a href="#" id="snavEnvironment">Environment</a></li>
-            <li><a href="#" id="snavHousing">Housing & Development</a></li>
-            <li><a href="#" id="snavSocial">Social Services</a></li>
-            <li><a href="#" id="snavEducation">Education</a></li>
-            <li><a href="#" id="snavHealth">Health</a></li>
-            </ul>  
-    </nav>
-    
-    <footer id="footer">
-        <h3>News</h3>
-
-    </footer>
-
-<div id="newsContainerTop">
-
-    
-    <div id="newsLeftTop">
-	November 12, 2014<br>
-			<strong>Long-term Future</strong><br>
-			<a href="http://espn.go.com/chicago/nba/story/_/id/11860080/derrick-rose-chicago-bulls-acknowledges-concerns-long-term-health" target="_blank">
-			<img src="newsitems/1_drose.jpg" alt="NewsPhoto"><br>
-			</a>
-			CHICAGO -- After watching his basketball life flash before his eyes over the past three seasons as he battled a litany of injuries, Chicago Bulls guard Derrick Rose reiterated after Tuesday's practice that he is thinking about his long-term future more than ever.
-  
-	</div>
-    
-    <div id="newsMiddleTop">
-
-			November 12, 2014<br>
-			<strong>Bicyclist Killed</strong>
-			<a href="http://www.chicagotribune.com/news/local/breaking/chi-bicyclist-killed-by-semitruck-in-lansing-20141112-story.html" target="_blank">
-			<img src="newsitems/2_bike.jpg" alt="NewsPhoto"><br>
-			</a>
-			A bicyclist was killed early Wednesday morning when he was struck by a semitrailer in south suburban Lansing, officials said.
-	
-    </div>
-    
-    <div id="newsRightTop">
-    
-			November 12, 2014<br>
-			<strong>SRO Preservation Law</strong>
-			<a href="http://www.chicagotribune.com/business/ct-chicago-sro-ordinance-1113-biz-20141112-story.html" target="_blank">
-			<img src="newsitems/3_ram.jpg" alt="NewsPhoto"><br>
-			</a>
-			Owners of single-room-occupancy hotels in Chicago will not be able to so easily evict residents and convert their properties to market-rate apartments, under an ordinance approved Wednesday by the Chicago City Council.	
-				
-    </div>
-</div>	
-	
-<div id="newsContainerBot">
-
-    
-    <div id="newsLeftBot">
-
-			November 13, 2014<br>
-			<strong>Right to Bare Breasts</strong>
-			<a href="http://www.chicagotribune.com/news/local/breaking/ct-topless-lawsuit-met-20141112-story.html" target="_blank">
-			<img src="newsitems/4_topless.jpg" alt="NewsPhoto"><br>
-			</a>
-			A woman ticketed in August for going topless during an event at Chicago's lakefront to promote women's rights to bare their breasts in public filed a federal lawsuit Wednesday claiming the city's ordinance against the practice is unconstitutional.
-				
-    </div>
-    
-    <div id="newsMiddleBot">
-
-			November 10, 2014<br>
-			<strong>Food Truck Bullies</strong>
-			<a href="http://www.chicagotribune.com/news/opinion/commentary/ct-rickert-chicago-food-truck-rules-perspec-1111-20141110-story.html" target="_blank">
-			<img src="newsitems/5_truck.jpg" alt="NewsPhoto"><br>
-			</a>
-			When Laura Pekarik filed a lawsuit challenging Chicago's strict food truck rules, she expected the battle to play out in court. What she didn't expect was for the city to bring her family into it.
-	
-    </div>
-    
-    <div id="newsRightBot">
-			November 12, 2014<br>
-			<strong>Civil Rights</strong>
-			
-			<video width="300" height="280" controls>
-			<source src="newsitems/6_video.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-			</video><br> 
-	Civil Rights Speech MP4 April 10, 2014 Austin, Texas		
-    </div>
-</div>	
-    
-</section>    
-    
-</body>
-
+    </body>
 </html>
+
+
